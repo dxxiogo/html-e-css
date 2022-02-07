@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexisíveis</title>
+</head>
+<body>
+    <p>Diminua seu navegador para ver as imagens sendo flexisíveis para o seu navegador
+    </p>
+    <picture>
+   <source media="(max-width: 750px )" srcset="imagem-pequena.png" type="image/png">     
+ <source media="(max-width: 1050px )" srcset="imagem-media.png" type="image/png">
+  <img src="imagem-grande.png" alt="imagem flexível">
+    </picture>
+    
+</body>
+</html>

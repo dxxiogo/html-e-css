@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>My first exercicie</title>
+    <style>
+        p{
+            color: blueviolet;
+            text-align: center;
+            font: 46pt Arial;
+        }
+        body{
+            background-image:linear-gradient(45deg, blueviolet, white);
+            height: 100vh;    
+          }
+          #hola{
+              background-color: aqua;
+              height: 200px;
+              width:200px;
+              line-height: 200px;
+              text-align: center;
+          }
+    </style>
+</head>
+<body>
+    
+    <div id="hola">Aqui vai ficar uma caixa</div>
+    <div id="area" onclick="clicar"></div>
+   <script>
+       function clicar(){
+           var a = window.document.getElementById('hola')
+           a.innerText = "Clicou!"
+        
+        }
+   </script>
+</body>
+</html>
