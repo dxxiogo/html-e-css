@@ -1,0 +1,64 @@
+
+body{
+    background:linear-gradient(to right, rgb(14, 171, 233), rgb(18, 16, 136));
+    color: white;
+}
+.box{
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    color: white
+
+}
+fieldset{
+    background-color: ;
+    border-radius: 5px;
+    background:  rgb(0, 0, 0, 0.5);
+    border:rgb(18, 16, 136) solid 3px;
+    height: 575px;
+}
+
+legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(18, 16, 136);
+    border-radius: 10px;
+    font-size: 18pt;
+}
+.cadastro{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    font-size: 15px;
+}
+#butao{
+    position: absolute;
+    border: none;
+    background:linear-gradient(to right, rgb(14, 171, 233), rgb(18, 16, 136));
+    width: 100px;
+    height: 25px;
+}
+.inputBox{
+    position: relative;
+}
+.labelinput{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    pointer-events: none;
+    transition: .5s;
+} 
+.cadastro:focus ~ .labelinput , .cadastro:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+}
+

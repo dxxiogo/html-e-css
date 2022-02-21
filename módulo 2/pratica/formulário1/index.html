@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+              <legend>Cadastro da Matrícula</legend> <br> 
+              <div class="inputBox">
+              <input type="text" name="nome" class="cadastro">
+              <label for="nome" class="labelinput">Nome completo</label><br><br>
+              </div>
+              <div class="inputBox">
+              <input type="email" name="email" class="cadastro">
+              <label for="email"  class="labelinput">Email</label><br><br>
+              </div>
+              <div class="inputBox">
+              <input type="tel" name="telefone" class="cadastro" >
+              <label for="telefone"  class="labelinput">Telefone</label><br>
+              </div>
+                  Sexo:
+                <input type="radio" name="genero" value="masculino" checked >
+                <label for="masculino">Masculino</label><input type="radio" name="genero" value="feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" value="outro" >
+                  <label for="outro">Outro</label>
+                  <br><br>
+                  <div class="inputBox">
+                  <input type="text" name="endereco" class="cadastro">
+                  <label for="endereco"  class="labelinput">Endereço</label><br><br>
+                  </div>
+                  <div class="inputBox">
+                  <input type="text" name="cidade" class="cadastro">
+                  <label for="cidade"  class="labelinput">Cidade</label><br>
+                  </div>
+              <p>
+                <label for="nascimento"><strong>Data de nascimento:</strong></label>
+                  <input type="date" name="nascimento" id="nascimento">
+              </p>
+              <p>Linguagens que gostaria de aprender: </p> 
+                <input type="checkbox" name="js" id="js" checked required>
+                <label for="js">Javascript</label>
+                <input type="checkbox" name="c##" id="c##" required>
+                <label for="c##">C##</label>
+                <input type="checkbox" name="python" id="python" required>
+                <label for="python">Python</label>
+                <input type="checkbox" name="outro2" id="outro2" required>
+                <label for="outro2">Outro</label>
+                <p>Conhecimento em HTML5 e CSS3</p>
+                <input type="radio" name="basico" checked required>
+                <label for="basico">Básico</label>
+                <input type="radio" name="intermediario" required>
+                <label for="intermediario">Intermediário</label>
+                <input type="radio" name="avancado" required>
+                <label for="avancado">Avançado</label> <br> <br>
+                <input type="submit" id="butao" value="Enviar">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
